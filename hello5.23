@@ -1,0 +1,6 @@
+module.id = modulePO.getId();
+        module.type = ModuleTypeConvert.codeOf(modulePO.getType()).getValue();
+        module.name = modulePO.getName();
+        module.content = modulePO.getTemplateStyle();
+        module.displayForm = ModuleDisplayFormConvert.getValue(modulePO
+                .getDisplayForm());
